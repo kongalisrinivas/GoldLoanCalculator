@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gold_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:text="Add Bank"
+        android:textColor="@color/gold_bg"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gold_bg"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+
+               <EditText
+                   android:id="@+id/dialog_bankname"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="10dp"
+                   android:hint="Bank Name"
+                   android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/dialog_appraisedvalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:hint="Apraised value"
+                android:inputType="number" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/blue"
+            android:textSize="10sp"
+            android:text="Apprisal Amount For customer Gold" />
+
+        <EditText
+                android:id="@+id/dialog_bankamokunt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Bank given amount"
+                android:inputType="number" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/blue"
+            android:textSize="10sp"
+            android:text="Bank Loan Per Gram" />
+
+        <Button
+            android:id="@+id/Banksavebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/black"
+            android:text="Save"
+            android:textColor="@color/gold_bg" />
+
+    </LinearLayout>
+
+</LinearLayout>

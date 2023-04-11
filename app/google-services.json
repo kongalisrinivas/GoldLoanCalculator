@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1087438013874",
+    "project_id": "gold-loan-calculator",
+    "storage_bucket": "gold-loan-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087438013874:android:a86d6ccbde282ce1b2d0ab",
+        "android_client_info": {
+          "package_name": "com.goldloancalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087438013874-305m0oc0ekj3hk3bf29j5uebcfuh2ntg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKZFiQEsC6B_Z4XL6gQ_tHpEFi557UkBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087438013874-305m0oc0ekj3hk3bf29j5uebcfuh2ntg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1087438013874-a0psr7p6d379phph04g97felg7rg2s46.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goldloancalculator"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

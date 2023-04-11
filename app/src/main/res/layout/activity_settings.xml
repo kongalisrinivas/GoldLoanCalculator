@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/gold_bg"
+    tools:context=".Settings">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/black"
+        app:title="Home"
+
+        app:titleTextColor="@color/gold_bg">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/txt_adduser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:background="@color/black"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Users"
+            android:textAlignment="center"
+            android:textColor="@color/gold_bg"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txt_addbank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_adduser"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:background="@color/black"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="Banks"
+            android:textAlignment="center"
+            android:textColor="@color/gold_bg"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/logout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/black"
+            android:drawablePadding="8dp"
+            android:padding="14dp"
+            android:text="logout"
+            android:textColor="@color/gold_bg" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

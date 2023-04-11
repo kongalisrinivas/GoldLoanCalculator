@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Appraiser Calculator</string>
+    <string name="item_details">Item Details</string>
+    <string name="item_name">Item Name</string>
+    <string name="gross_weight">Gross Weight</string>
+    <string name="karats">Karats</string>
+    <string name="net_weight">Net weight</string>
+    <string name="appraisal_value">Appraisal value</string>
+    <string name="bank_value">Bank value</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="contentdescription">contentDescription</string>
+
+    <string-array name="Karats">
+        <item>Karats</item>
+        <item>58.5% = 14 karat</item>
+        <item>62.5% = 15 karat</item>
+        <item>75% = 18 karat</item>
+        <item>80% = 19 karat</item>
+        <item>85% = 20 karat</item>
+        <item>90% = 21 karat</item>
+        <item>92% = 22 karat</item>
+    </string-array>
+</resources>
